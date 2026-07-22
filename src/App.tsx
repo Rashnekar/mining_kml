@@ -36,32 +36,6 @@ const INITIAL_DEMO_DOCUMENT: KmlDocument = {
   createdAt: new Date().toISOString(),
   features: [
     {
-      id: 'l-1',
-      type: 'LineString',
-      name: 'Trans-Atlantic Fiber Route',
-      description: 'Submarine fiber-optic cabling connecting the UK and USA shores.',
-      coordinates: [
-        { lat: 50.8122, lng: -1.0772 },
-        { lat: 51.5074, lng: -0.1278 },
-        { lat: 40.7128, lng: -74.0060 }
-      ],
-      color: '#10b981',
-      width: 4
-    },
-    {
-      id: 'l-2',
-      type: 'LineString',
-      name: 'Pacific Ring Arc Segment',
-      description: 'High activity tech tectonic fault line boundary tracking.',
-      coordinates: [
-        { lat: 35.6762, lng: 139.6503 },
-        { lat: 5.1214, lng: 119.5885 },
-        { lat: -33.8688, lng: 151.2093 }
-      ],
-      color: '#ef4444',
-      width: 3
-    },
-    {
       id: 'g-1',
       type: 'Polygon',
       name: 'Bermuda Triangle Enclosure',
