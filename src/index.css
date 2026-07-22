@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+/* Custom Leaflet style overrides for a cleaner, modern look */
+.leaflet-container {
+  font-family: inherit;
+  background-color: #0f172a;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #1e293b !important;
+  color: #f8fafc !important;
+  border-radius: 0.75rem !important;
+  border: 1px solid #334155 !important;
+  padding: 4px !important;
+}
+
+.leaflet-popup-tip {
+  background-color: #1e293b !important;
+  border: 1px solid #334155 !important;
+}
+
+.leaflet-bar {
+  border: 1px solid #334155 !important;
+  box-shadow: none !important;
+  border-radius: 0.5rem !important;
+  overflow: hidden;
+}
+
+.leaflet-bar a {
+  background-color: #1e293b !important;
+  color: #94a3b8 !important;
+  border-bottom: 1px solid #334155 !important;
+}
+
+.leaflet-bar a:hover {
+  background-color: #334155 !important;
+  color: #ffffff !important;
+}
+

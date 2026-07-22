@@ -1,0 +1,6 @@
+{
+  "name": "KML 3D Map Visualizer",
+  "description": "An interactive 3D Globe and 2D detailed map visualizer for KML geographical layers, with manual coordinate entry and Firebase Cloud database sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
